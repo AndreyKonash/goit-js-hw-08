@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-refs = {
+const refs = {
   form: document.querySelector('.feedback-form'),
   emailInput: document.querySelector('input[name="email"]'),
   messageInput: document.querySelector('textarea[name="message"]'),
